@@ -1,3 +1,8 @@
+CREATE DATABASE COMPANY;
+
+USE COMPANY;
+
+
 CREATE TABLE EMPLOYEE (
     Fname       VARCHAR(20)   NOT NULL,
     Minit       CHAR(1),
