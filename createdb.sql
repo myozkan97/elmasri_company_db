@@ -68,7 +68,8 @@ CREATE TABLE DEPENDENT (
     Sex CHAR(1),
     Bdate DATE NOT NULL,
     Relationship VARCHAR(20) NOT NULL,
-    PRIMARY KEY (Essn, Dependent_name)
+    PRIMARY KEY (Essn, Dependent_name),
+    FOREIGN KEY (Essn) REFERENCES Employee(Ssn)
 );
 
 
